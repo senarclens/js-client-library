@@ -34,4 +34,5 @@ export type UserStatusOverview = {
   profile_picture: string;
   user_fullname: string;
   alert_maximum_timer_violation?: boolean;
+  task_mother_id: number | null;
 };
